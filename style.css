@@ -32,9 +32,10 @@
     vertical-align: middle;
   }
   
+  /* Nav Styles */
   nav {
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #9117ca;
+    box-shadow: 0 2px 10px rgba(24, 187, 160, 0.1);
   }
   
   nav a {
@@ -47,7 +48,7 @@
   }
   
   nav a:hover {
-    background-color: #333;
+    background-color: #333333;
     color: #fff;
   }
   
