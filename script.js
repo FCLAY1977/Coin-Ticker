@@ -29,16 +29,3 @@ fetch(apiUrl)
   })
   .catch(error => console.error(error));
 
-
-const toggleMiningSectionButton = document.getElementById("toggle-mining-section");
-const miningDetailsDiv = document.getElementById("mining-details");
-
-toggleMiningSectionButton.addEventListener("click", () => {
-  if (miningDetailsDiv.style.display === "none") {
-    miningDetailsDiv.style.display = "block";
-    toggleMiningSectionButton.textContent = "Show Less";
-  } else {
-    miningDetailsDiv.style.display = "none";
-    toggleMiningSectionButton.textContent = "Show More";
-  }
-});
