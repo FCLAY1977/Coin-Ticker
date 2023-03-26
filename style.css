@@ -8,10 +8,10 @@
   /* Global styles */
   .global {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 1.5;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #06812f;
+    background-color: #0c020200;
   }
   
   .container {
@@ -33,10 +33,12 @@
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 500px;
 }
 
 .logo img {
-  height: 600px;
+  height: 500px;
   margin-right: 10px;
 }
  
