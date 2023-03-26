@@ -29,3 +29,28 @@ fetch(apiUrl)
   })
   .catch(error => console.error(error));
 
+
+  
+  const miningSection = document.querySelector('#mining-section');
+  const miningLinks = miningSection.querySelectorAll('a');
+  
+  const newsSection = document.querySelector('#news-section');
+  const newsLinks = newsSection.querySelectorAll('a');
+  
+  
+  miningLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      console.log(`You clicked on the ${link.textContent} link in the mining section.`);
+      
+    });
+  });
+  
+  
+  newsLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      console.log(`You clicked on the ${link.textContent} link in the news section.`);
+      
+    });
+  });
