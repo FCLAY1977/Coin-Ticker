@@ -10,7 +10,6 @@
     font-family: Arial, sans-serif;
     font-size: 30px;
     line-height: 1.5;
-    color: #06812f;
     background-color: #0c020200;
   }
   
@@ -46,7 +45,7 @@
   nav {
     background-color: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid rgb(64, 70, 64); /* add green border to bottom of nav */
+    border-bottom: 3px solid rgb(64, 70, 64); 
   }
   
   nav a {
@@ -123,7 +122,7 @@
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.2s ease, transform 0.2s ease;
-      border: 3px solid purple; 
+      border: 3px solid; 
       border-top: none; 
     }
   
