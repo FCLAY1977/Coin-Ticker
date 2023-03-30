@@ -20,6 +20,7 @@ Feature List
 2. Use arrays, objects, sets or maps to store and retrieve information that is displayed in your app
 3. Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the inputs. Basic math functions don’t 
 count (e.g. addition, etc).
+4. Visualize data in a user friendly way. (e.g. graph, chart, etc)
 
 In order to run this project you can clone this repository to your local machine. It would need to be accessed on a PC or Mac that has Visual Studio Code installed. You can right-click on the html file and open it using Live Server. Another alternative is to use this link: https://fclay1977.github.io/Coin-Ticker/ to see it hosted on GitHub Pages via a mobile device or tablet. 
 
