@@ -54,3 +54,23 @@ fetch(apiUrl)
       
     });
   });
+
+ 
+  function calculateCryptoValue() {
+    const abbv = document.getElementById('crypto-abbv').value;
+    const price = document.getElementById('crypto-price').value;
+   
+    if (abbv !== "BTC" && abbv !== "ETH" && abbv !== "LTC") {
+      alert("Please choose a valid crypto abbreviation (BTC, ETH, or LTC).");
+      return;
+    }
+   
+    if (!price || price <= 0) {
+      alert("Please enter a valid crypto price.");
+      return;
+    }
+   
+    const value = price * 10 / 2;
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = `<p>The value of ${abbv} is ${value}.</p>`;
+  }
